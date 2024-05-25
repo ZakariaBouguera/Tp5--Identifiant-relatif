@@ -95,6 +95,6 @@ create table Periode (
     debut varchar(50),
     fin varchar(50),
     primary key (num, saison, annee),
-    foreign key (saison) REFERENCES Saison(code)
+    foreign key (saison) references Saison(code)
 );
 
